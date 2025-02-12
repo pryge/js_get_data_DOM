@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var t=document.querySelectorAll(".population"),e=[];t.forEach(function(t){var o=parseInt(t.textContent.replace(/,/g,""),10);isNaN(o)||e.push(o)});var o=0;e.forEach(function(t){o+=t});var n=Math.round(o/e.length),a=document.querySelector(".total-population"),r=document.querySelector(".average-population");a.textContent=o.toLocaleString(),r.textContent=n.toLocaleString()});
+//# sourceMappingURL=index.6f7499af.js.map

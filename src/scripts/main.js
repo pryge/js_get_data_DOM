@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   populationElements.forEach(function (element) {
     const text = element.textContent;
 
-    const number = parseInt((text.replace(/,/g, ''), 10));
+    const number = parseInt(text.replace(/,/g, ''), 10);
 
     if (!isNaN(number)) {
       populations.push(number);
